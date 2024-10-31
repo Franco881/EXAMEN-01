@@ -1,0 +1,80 @@
+    1  mkdir home
+    2  cd home
+    3  mkdir renzo
+    4  cd renzo
+    5  mkdir examen01
+    6  cd examen01
+    7  mkdir pregunta01
+    8  mkdir pregunta02
+    9  mkdir pregunta03
+   10  mkdir pregunta04
+   11  mkdir pregunta05
+   12  mkdir pregunta06
+   13  mkdir pregunta07
+   14  mkdir pregunta08
+   15  mkdir pregunta09
+   16  mkdir pregunta10
+   17  cd pregunta01
+   18  touch archivo1.txt
+   19  touch archivo2.txt archivo3.txt archivo4.txt archivo5.txt
+   20  tree
+   21  ls
+   22  sudo apt install tree
+   23  tree
+   24  cd
+   25  tree
+   26  cd home
+   27  cd renzo
+   28  cd examen01
+   29  cd pregunta02
+   30  touch archivo6.txt archivo7.txt archivo8.txt archivo9.txt archivo10.txt
+   31  cd ..
+   32  cd pregunta03
+   33  touch archivo11.txt archivo12.txt archivo13.txt archivo14.txt archivo15.txt
+   34  cd ..
+   35  cd pregunta04
+   36  touch archivo16.txt archivo17.txt archivo18.txt archivo19.txt archivo20.txt
+   37  cd ..
+   38  cd pregunta05
+   39  touch archivo21.txt archivo22.txt archivo23.txt archivo24.txt archivo25.txt
+   40  cd ..
+   41  cd pregunta06
+   42  touch archivo26.txt archivo27.txt archivo28.txt archivo29.txt archivo30.txt
+   43  cd ..
+   44  cd pregunta 07
+   45  cd pregunta07
+   46  touch archivo31.txt archivo32.txt archivo33.txt archivo34.txt archivo35.txt
+   47  cd..
+   48  cd ..
+   49  cd pregunta08
+   50  touch archivo36.txt archivo37.txt archivo38.txt archivo39.txt archivo40.txt
+   51  cd ..
+   52  cd pregunta09
+   53  touch archivo41.txt archivo42.txt archivo43.txt archivo44.txt archivo45.txt
+   54  cd ..
+   55  cd pregunta10
+   56  touch archivo46.txt archivo47.txt archivo48.txt archivo49.txt archivo50.txt
+   57  cd ..
+   58  tree
+   59  cd
+   60  tree
+   61  history > bitacora1.txt
+   62  git init
+   63  git add
+   64  git add .
+   65  cd home
+   66  cd
+   67  cd bitacoras
+   68  git add bitacora1.txt
+   69  git commit -m "parte1"
+   70  git config --global user.email "fgutierrez@unsa.edu.pe"
+   71  git config --global user.name "Franco881"
+   72  git commit -m "parte1"
+   73  git remote add origin https://github.com/Franco881/EXAMEN-01.git
+   74  git push -u origin master
+   75  cd
+   76  cd home
+   77  cd renzo
+   78  cd examen01
+   79  git init
+   80  history  > bitacora01.txt
